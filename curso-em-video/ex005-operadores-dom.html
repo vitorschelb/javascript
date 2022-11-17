@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM
+    </h1>
+    <script>
+
+
+        /* 
+        Anotações
+        
+        Operadores
+
+        ARITMÉTICOS 
+        (% divisao que mostra só o resto, números inteiros ** pontência)
+
+            PRECEDÊNCIA 
+            quando uma expressão tem soma e divisão, ele faz primeiro a divisão.
+        
+                ORDEM DE PRECEDENCIA: () -> ** -> * / % -> + - (Os de mesma ordem faz o que aparece primeiro)
+                    
+                    ATRIBUIÇÃO SIMPLES: n = 2*3
+                    
+                    AUTO ATRIBUIÇÃO:
+                        var n=4 
+                        n=n+4 (Ele usa o valor atribuido e atribui um novo valor a variavel)
+                        n+=4 n-=5 n*=4 n/=2 n**=2 n%=5 (simplificação de sintaxe)
+
+        INCREMENTO
+            var x=5  =x+1 x=-1 -> x++(+1) e x--(-1) (simplificação de sintaxe) / pré-incremento --n ++n (o sinal vem antes)
+
+        ATRIBUIÇÃO
+
+        RELACIONAIS
+            > < >= <= == != 
+            O resultado é sempre booleano.
+
+                RELACIONAIS DE IDENTIDADE
+                    o sinal de == nao testa o TIPO por exemplo 5==5 é o mesmo que 5=='5' (true)
+                    5==='5' (falso) o === testa se é identico, tanto valor quanto TIPO. X == Y (tem o mesmo valor, true) X===Y (FALSE, recebe o mesmo valor mais são TIPOS diferentes)
+
+        LÓGICOS
+            ! negação, no -> True ou False
+           
+            && conjunção, e -> Binário, dois valores lógicos. Somente se as duas forem verdadeiras
+                true && true -> true
+                true && false -> false
+                false && true -> false
+                false && false -> false
+
+            || disjunção, ou -> Binário também, dois valores lógicos. Mas só precisa de 1 ser verdadeiro
+                true || true -> true
+                true || false -> true
+                false || true -> true
+                false || false -> false
+
+            exemplos: 
+                idade >= 15 && idade <= 17 //a idade está entre 15 e 17?
+                estado == 'RJ' || estado == 'SP' //o estado é RJ ou SP?
+                salário > 1500 && sexo !='M'//o salário é maior que 1500 e não é homem?
+
+        ARITMÉTICOS -> RELACIONAIS -> LÓGICOS
+
+        TERNÁRIOS
+        teste ? true : false
+            média>=7 ? "Aprovado" : "Reprovado"
+                    SE FOR TRUE   SE FOR FALSE
+
+                    exemplo:
+                    var x = 8
+                    var res = x%2==0?5:9
+                    O resto de x dividido por 2 é 0? Se for x=5 se não 5=9
+
+                    var idade = 19
+                    var r = idade>=18?'MAIOR':'MENOR'
+                    A minha idade é maior ou igual a 18? Se for verdader r=MAIOR se não r=MENOR
+        */
+    </script>
+</body>
+</html>
