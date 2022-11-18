@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model </title>
+    <style>
+        body {
+            background-color: rgb(112, 112, 232);
+            color: whitesmoke;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        window.document.write('Olá, mundo!<br>')
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0] //0 é por que é o primeiro paragrafo, se fosse o segundo seria 1
+        window.document.write('Está escrito assim:' + p1.innerText)
+        p1.style.color = 'blue' //sobrescreve o css original
+        corpo.style.background = 'black'
+        document.write(p1.innerhtml) //Aqui ele puxa a formatação inline, no caso o strong
+
+        var d = document.getElementById('msg') //Nao precisa de colchete, pq ta no singular
+        d.style.background = 'green'
+
+        var d = document.getElementsByName('msg')[0]
+
+        var d = document.querySelector('div#msg')
+
+
+                    //Arvore DOM
+// Window
+        //Location Document History (...)
+                    //HTML
+                        //Head Body
+                            //Meta Title - H1 p div
+                                            //Strong
+
+// É possível acessar, pela: 
+
+// Marca(TAG) > getElementsByTagName()
+// ID > getElementById()
+// Nome > getElementsByName()
+// Classe > getElementsByClassName()
+// Seletor(CSS) > querySelector() e querySelectorAll()
+
+    </script>
+</body>
+</html>
