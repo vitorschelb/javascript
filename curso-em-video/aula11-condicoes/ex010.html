@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+
+
+        function calcular() {
+            var txtv = document.getElementById('txtvel') //Essa Variavel é só a string
+            var vel = Number(txtvel.value) //ELE PEGA O VALOR DO NUMERO QUE ESTA NA STRING, SE NAO PEGA COMO STRING
+            var res = document.getElementById('res') //Ele pega o elemento res e declara
+            res.innerHTML = `<p>Sua velocidade atual é de ${vel}Km/h</p>` //Então finalmente, modifica o elemento mostrando o valor de vel.
+            if (vel > 60) {
+                res.innerHTML += `<p>Sua velocidade é maior que 60Km/h. Você foi MULTADO!</p>` //Aqui ele tbm coloca += PQ SE NÃO APAGA A MSG ANTERIOR. 
+            }
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança! </p>` //Aqui como o += vem antes da string, ele esta concatenando
+        }
+    </script>
+</body>
+</html>
