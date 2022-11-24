@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font: normal 15pt arial;
+    background-color: rgb(89, 158, 207);
+}
+header {
+    color: white;
+    min-width: 530px;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    line-height: 50px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.223);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.foto {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50px;
+
+}
+
+
