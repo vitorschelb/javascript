@@ -5,7 +5,12 @@
 <p align="left">
 </p>
 
-<p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula11-condicoes/ex009.html"> Simple Condition </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula12ex/modelo.html"> Real Time Watch (GMT-3) </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula12ex2/"> Age Tester </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula14ex/ex016/modelo.html"> Counter </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula14ex/ex017/modelo.html"> Multiplier </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/heads-first/battleship/index.html"> Simple BattleShip </a>
+  javascript/curso-em-video/aula11-condicoes/ex010.html
 
 
 
