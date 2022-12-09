@@ -16,7 +16,8 @@
 
 ação(5) <- parametro real */
 
-
+//PARAMETROS É A VARIAVEL QUE RECEBE UM ARGUMENTO
+//ARGUMENTOS TAMBEM SÃO RECEBIDOS, MAS EM PARAMETROS
 
 function parimpar(n) {
     if (n%2==0) {   //ação
