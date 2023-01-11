@@ -1,0 +1,1 @@
+"use strict" //Só permite usar variáveis declaradas.
