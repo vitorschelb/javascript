@@ -34,7 +34,5 @@ function* contador() {
 const itl=contador()
 for(let c of itl) {
     console.log(c)
-    break
 }
-stop
 
