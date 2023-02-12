@@ -11,7 +11,8 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/curso-em-video/aula14ex/ex017/modelo.html"> Multiplier </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/heads-first/battleship/index.html"> Simple BattleShip </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula35-eventlistenerpratica.html"> Div Transfer </a>
-
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/exercises\todolist001.html"> To Do List 001 </a>
+C:\Users\Vitor Schelb\Documents\Estudos\javascript\exercises\todolist001.html
 
 
 <h3 align="center">Languages and Tools:</h3>
