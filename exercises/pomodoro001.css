@@ -1,0 +1,39 @@
+.pomodoro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #start {
+    background-color: green;
+    color: white;
+  }
+  
+  #pause {
+    background-color: orange;
+    color: white;
+  }
+  
+  #reset {
+    background-color: red;
+    color: white;
+  }
