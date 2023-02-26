@@ -13,11 +13,12 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula35-eventlistenerpratica.html"> Div Transfer </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/exercises/todolist001.html"> To Do List 001 </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/exercises/todolist002.html"> To Do List 002 </a>
-<p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula41-removendoelementos.html> DOM Example </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula41-removendoelementos.html"> Remove Example </a>
   
 
 
 
+  
 
 <h3 align="center">Languages and Tools:</h3>
 <p align="center"> <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> </p>
