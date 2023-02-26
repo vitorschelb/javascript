@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+#color {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: #3477b2ec;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    background-color: #2480d0;
+}
+
+
