@@ -14,8 +14,8 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/exercises/todolist001.html"> To Do List 001 </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/exercises/todolist002.html"> To Do List 002 </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula41-removendoelementos.html"> Remove Example </a>
-<p align="center"> <a href="https://vitorschelb.github.io/Estudos/javascript/js-projects/javascript-basic-projects-master/01-color-flipper/01/index.html"> Color Flipper 001 </a>
-<p align="center"> <a href="https://vitorschelb.github.io/Estudos/javascript/js-projects/javascript-basic-projects-master/01-color-flipper/01/teste.html"> Color Flipper 002 </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/01-color-flipper/01/index.html"> Color Flipper 001 </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/01-color-flipper/01/teste.html"> Color Flipper 002 </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula42-filterpratica.html"> Filter </a>
  
 
