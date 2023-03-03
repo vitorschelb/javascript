@@ -20,7 +20,7 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula46-toggle.html"> Toggle Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula47-find.html"> Find Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula48-every.html"> Every Practice </a>
-<p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula47-some.html"> Some Practice </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula49-some.html"> Some Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula50-reduce"> Reduce Practice </a>
 
 
