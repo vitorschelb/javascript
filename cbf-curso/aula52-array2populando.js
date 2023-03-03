@@ -3,43 +3,50 @@ const btn_subtrai = document.querySelector("#subtrai");
 const btn_multiplica = document.querySelector("#multiplica");
 const btn_divide = document.querySelector("#divide");
 const res = document.querySelector("#res");
+const valor1 = document.getElementById("valor1");
+const valor2 = document.getElementById("valor2");
+
+const soma = () => {
+  const val = [valor1.value, valor2.value];
+  res.value = Number(val[0]) + Number(val[1]);
+};
+
+const subtrai = () => {
+  const val = [valor1.value, valor2.value];
+  res.value = Number(val[0]) - Number(val[1]);
+};
+
+const multiplica = () => {
+  const val = [valor1.value, valor2.value];
+  res.value = Number(val[0]) * Number(val[1]);
+};
+
+const divide = () => {
+  const val = [valor1.value, valor2.value];
+  res.value = Number(val[0]) / Number(val[1]);
+};
+
+const limpa = () => {
+  valor1.value = "";
+  valor2.value = "";
+};
 
 const operacoes = [
   () => {
-    const val = [
-      document.getElementById("valor1").value,
-      document.getElementById("valor2").value,
-    ];
-    res.value = Number(val[0]) + Number(val[1]);
-    document.getElementById("valor1").value = "";
-    document.getElementById("valor2").value = "";
+    soma();
+    limpa();
   },
   () => {
-    const val = [
-      document.getElementById("valor1").value,
-      document.getElementById("valor2").value,
-    ];
-    res.value = Number(val[0]) - Number(val[1]);
-    document.getElementById("valor1").value = "";
-    document.getElementById("valor2").value = "";
+    subtrai();
+    limpa();
   },
   () => {
-    const val = [
-      document.getElementById("valor1").value,
-      document.getElementById("valor2").value,
-    ];
-    res.value = Number(val[0]) * Number(val[1]);
-    document.getElementById("valor1").value = "";
-    document.getElementById("valor2").value = "";
+    multiplica();
+    limpa();
   },
   () => {
-    const val = [
-      document.getElementById("valor1").value,
-      document.getElementById("valor2").value,
-    ];
-    res.value = Number(val[0]) / Number(val[1]);
-    document.getElementById("valor1").value = "";
-    document.getElementById("valor2").value = "";
+    divide();
+    limpa();
   },
 ];
 
