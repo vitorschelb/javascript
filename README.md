@@ -25,7 +25,6 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula52-array2populando.html"> Arrays Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula58-objetos-DOM.html"> Objects Practice </a>
 
-http://127.0.0.1:5500/cbf-curso/aula58-objetos-DOM.html
 
 
 
