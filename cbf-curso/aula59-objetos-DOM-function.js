@@ -1,29 +1,28 @@
-class Pessoa {
-  constructor(pnome, pidade) {
+function Pessoa(pnome, pidade) {
     this.nome = pnome;
     this.idade = pidade;
-  }
-
-  getNome() {
+    
+  this.getNome() =() => {
     return this.nome;
-  }
+  },
 
-  getIdade() {
+  this.getIdade() =() => {
     return this.idade;
-  }
+  },
 
-  setNome(nome) {
+  this.setNome(nome) = () =>{
     this.nome = nome;
-  }
+  },
 
-  setIdade(idade) {
+  this.setIdade(idade) = () => {
     this.idade = idade;
-  }
+  },
 
-  info() {
+  this.info() = () =>  {
     console.log(`Nome: ${this.nome}`);
     console.log(`Idade: ${this.idade}`);
   }
+
 }
 
 let pessoas = [];
