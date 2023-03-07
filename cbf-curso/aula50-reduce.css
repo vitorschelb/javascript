@@ -147,3 +147,10 @@ button:hover {
     border-radius: 5px;
     width: 300px;
 }
+
+@media screen and (max-width: 720px) {
+    .caixa {
+        width: 80%;
+    }
+    }
+    

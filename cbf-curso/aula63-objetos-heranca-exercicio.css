@@ -66,12 +66,11 @@ Variables
 
 nav {
   background: var(--clr-white);
-  height: 3rem;
-  display: grid;
-  align-items: center;
   box-shadow: var(--dark-shadow);
-  text-align: center;
   margin-bottom: 2%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 .nav-center h4 {
@@ -96,6 +95,9 @@ label {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+.btn {
+  box-shadow: none;
+}
 .caixa {
   border-color: var(--clr-primary-3);
   background-color: var(--clr-grey-10);
@@ -124,6 +126,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .car {
@@ -163,13 +166,24 @@ input {
   padding: 10px;
   border-radius: 5px;
   border: 2px solid var(--clr-primary-3);
-  width: 200px;
   text-align: center;
   margin-bottom: 1px;
   margin-top: 1px;
+  width: 57%;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .info {
+    width: 80%;
+  }
+
+  .fleet {
+    width: 80%;
+  }
 }

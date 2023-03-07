@@ -87,7 +87,6 @@ p, label, input {
 }
 
 .caixa {
-    border: 5px solid #000;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -95,28 +94,11 @@ p, label, input {
     padding: 5px;
     width: 25%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-color: var(--clr-primary-3);
+    background-color: var(--clr-grey-10);
+    border: 2px solid var(--clr-primary-3);
+    margin-bottom: 5px;
     
-}
-
-.verde {
-    border-color: var(--clr-primary-3);
-    background-color: var(--clr-grey-10);
-    margin-bottom: 1rem;
-    border: 2px solid var(--clr-primary-3);
-
-}
-
-.azul {
-    border-color: var(--clr-primary-3);
-    background-color: var(--clr-grey-10);
-    margin-bottom: 1rem;
-    border: 2px solid var(--clr-primary-3);
-}
-
-.vermelho {
-    border-color: var(--clr-primary-3);
-    background-color: var(--clr-grey-10);
-    border: 2px solid var(--clr-primary-3);
 }
 
 button {
@@ -146,4 +128,10 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
     width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+    .caixa {
+        width: 80%;
+    }
 }
