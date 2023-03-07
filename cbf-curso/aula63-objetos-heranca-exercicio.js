@@ -79,8 +79,12 @@ btn_add.addEventListener("click", () => {
     arrayFleet.push(newCar);
   }
   manager();
+  limpar()
 });
 
-// inputs.forEach((input) => {
-//input.value = "";
-//});
+const limpar = () => {
+  inputs.forEach((input) => {
+    input.value = "";
+  });
+}
+
