@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>objects heritage exercise</title>
+    <link rel="stylesheet" href="aula63-objetos-heranca-exercicio.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <h4>objects heritage exercise</h4>
+        <p>The military vehicles inherit name and doors from civilian cars</p>
+      </div>
+    </nav>
+    <div class="info caixa">
+      <input type="text" name="name" id="name" placeholder="Name"/>
+      <input type="text" name="doors" id="doors" placeholder="Doors"/>
+      <input type="text" name="armor" id="armor" placeholder="Armor" disabled >
+      <input type="text" name="ammo" id="ammo" placeholder="Ammo" disabled/>
+      <form >
+        <label for="civilian">Civilian</label>
+      <input type="radio" name="i_type" id="civilian" value="c" checked>
+        <label for="military">Military</label>
+      <input type="radio" name="i_type" id="military" value="m">
+    </form>
+    </div>
+    <div class="info">
+      <button class="btn_add" id="btn_add">Add</button>
+    </div>
+      
+      <p>My Fleet</p>
+      <div id="fleet" class="fleet"></div>
+    <script src="aula63-objetos-heranca-exercicio.js"></script>
+  </body>
+</html>
