@@ -6,8 +6,14 @@ const c_radio = document.querySelector("#civilian");
 const m_radio = document.querySelector("#military");
 const btn_add = document.querySelector("#btn_add");
 const fleet = document.querySelector("#fleet");
-const inputs = document.querySelectorAll("input[type='text]");
+const inputs = document.querySelectorAll("input[type='text']");
 let arrayFleet = [];
+
+const limpar = () => {
+  inputs.forEach((input) => {
+    input.value = "";
+  });
+}
 
 class Car {
   constructor(name, doors) {
@@ -81,10 +87,3 @@ btn_add.addEventListener("click", () => {
   manager();
   limpar()
 });
-
-const limpar = () => {
-  inputs.forEach((input) => {
-    input.value = "";
-  });
-}
-
