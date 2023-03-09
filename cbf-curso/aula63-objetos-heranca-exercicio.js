@@ -13,7 +13,7 @@ const limpar = () => {
   inputs.forEach((input) => {
     input.value = "";
   });
-}
+};
 
 class Car {
   constructor(name, doors) {
@@ -68,6 +68,15 @@ const manager = () => {
       div.innerHTML = `Name: ${newCar.name} <br/> Doors: ${newCar.doors}`;
     }
     fleet.appendChild(div);
+
+    let btn_remove = document.createElement("img"); //Eu queria fazer uma função separada, mas ele não acha a div; Como fazer ele achar a div?
+    btn_remove.setAttribute("src", "./lixeira.png");
+    btn_remove.setAttribute("class", "btn_remove");
+    div.appendChild(btn_remove);
+    btn_remove.addEventListener("click", () => {
+      const div_to_remove = btn_remove.parentNode;
+      div_to_remove.remove();
+    });
   });
 };
 
@@ -85,5 +94,5 @@ btn_add.addEventListener("click", () => {
     arrayFleet.push(newCar);
   }
   manager();
-  limpar()
+  limpar();
 });

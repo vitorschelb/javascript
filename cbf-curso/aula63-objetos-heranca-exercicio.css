@@ -139,6 +139,7 @@ label {
   border-radius: 5px;
   display: flex;
   align-self: center;
+  justify-content: space-between;
 }
 
 button {
@@ -176,6 +177,14 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.btn_remove {
+  width: 20%;
+  height: 10%;
+  cursor: pointer;
+  align-self: center;
+  
 }
 
 @media screen and (max-width: 720px) {
