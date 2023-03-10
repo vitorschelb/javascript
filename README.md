@@ -25,6 +25,7 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula52-array2populando.html"> Arrays Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula58-objetos-DOM.html"> Objects Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula63-objetos-heranca-exercicio.html"> Objects Heritage Practice </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/database/index.html"> JSON Practice 1 </a>
 
 
 
