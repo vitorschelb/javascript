@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi, I'm Vitor Schelb</h1>\r <h3 align=\"center\">Currently learning Web Development</h3>",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server --watch js-projects/javascript-basic-projects-master/database/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorschelb/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorschelb/javascript/issues"
+  },
+  "homepage": "https://github.com/vitorschelb/javascript#readme",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
