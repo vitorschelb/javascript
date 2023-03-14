@@ -80,3 +80,14 @@ function setup() {
     .then(json => console.log(json))
     .catch(err => console.log(err))
 }
+
+function setup () {
+    fetch(wordnikAPI)
+    .then(response => response.json())
+    .then(json => {
+        createImageBitmap(json.word)
+        return fetch(giphyAPI + json.word)
+    })
+    .then(response => response.json())
+    .then(json.data[0].images[''])
+}
