@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+/* CORPO */
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* NOME */
+
+.div_nome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 220px;
+  background-color: gray;
+}
+
+/* DISPLAY */
+
+.div_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: green;
+  width: 220px;
+  /*botar a borda só em cima*/
+}
+
+#display {
+    text-align: right;
+}
+
+/* TECLAS */
+
+.div_teclas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  flex-wrap: wrap;
+  background-color: black;
+  border-radius: 5px; /* Botar a borda so embaixo*/
+}
+.tecla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  border: 3px solid #888;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 2px;
+}
+.tecla_op {
+  background-color: #f44;
+  border-color: #800;
+}
