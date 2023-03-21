@@ -1,4 +1,6 @@
-const questionBtn = document.querySelectorAll(".question-btn"); //Se pega o botão que inclui os dois icones, por que é apenas um botão, os outros são apenas icones visuais que revezam.
+//POR PARENT:
+
+// const questionBtn = document.querySelectorAll(".question-btn"); //Se pega o botão que inclui os dois icones, por que é apenas um botão, os outros são apenas icones visuais que revezam.
 
 // questionBtn.forEach((btn) => { //Aqui é preciso nomear o parametro por que é diferente, questionBtn são todos, btn é cada um individual que o forEach me entrega.
 //     btn.addEventListener('click', (e) => {
@@ -9,7 +11,7 @@ const questionBtn = document.querySelectorAll(".question-btn"); //Se pega o bot�
 
 const questions = document.querySelectorAll(".question");
 
-// Dessa forma funciona e fica mais limpo, só que ele não fecha o proprio, apenas as outras.
+// MINHA FORMA: Ele não fecha o proprio, apenas as outras.
 
 // questions.forEach((btn) => { //Nesse caso, já pega direto a div PAI, sem precisar usar parent element. O forEach me entrega o BTN especifico. Com o BTN especifico eu crio uma função que vai passar para E a funcionalidade, é adicionado a E o current target para especificar que é aquele que estou clicando. Sem o currenttarget ele me devolve o evento de click e não o que eu quero. Sempre que for especificar algo em um conjunto de elemento, especificar currenttarget
 //     // console.log(btn)
@@ -23,6 +25,8 @@ const questions = document.querySelectorAll(".question");
 //         // console.log(e.currentTarget)
 //     })
 // })
+
+//FORMA CORRIGIDA:
 
 questions.forEach((question) => {
   const btn = question.querySelector(".question-btn");
