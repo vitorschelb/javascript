@@ -28,6 +28,9 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/02-counter/01/02.html"> Counter 0.2 </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/03-reviews/03.html"> Reviews </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/05-sidebar/05.html"> Sidebar </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/06-modal/index.html"> Modal </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/07-questions/index.html"> Questions </a>
+
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/getISS/index.html"> API and Lib Practice </a>
 
 
