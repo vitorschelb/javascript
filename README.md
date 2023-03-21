@@ -25,7 +25,8 @@
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula52-array2populando.html"> Arrays Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula58-objetos-DOM.html"> Objects Practice </a>
 <p align="center"> <a href="https://vitorschelb.github.io/javascript/cbf-curso/aula63-objetos-heranca-exercicio.html"> Objects Heritage Practice </a>
-<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master\getISS\index.html"> API and Lib Practice </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/getISS/index.html"> API and Lib Practice </a>
+<p align="center"> <a href="https://vitorschelb.github.io/javascript/js-projects/javascript-basic-projects-master/02-counter/01/02.html"> Counter 0.2 </a>
 
 
 
